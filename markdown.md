@@ -29,3 +29,8 @@ git no ~~vive~~ en vano
 1. Lunes
 2. Martes
 3. Miercoles
+
+``` sql
+For este in texto
+es un snippet
+```
