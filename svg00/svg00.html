@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratón Mejorado</title>
+    <style>
+        svg {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo 0 - SVG</h1>
+    <svg width="200" height="200">
+        <circle cx="100" cy="100" fill="silver" stroke="currentcolor" stroke-width="4" r="50"></circle>
+    </svg>
+    <br><br><br><br><br>
+    <svg width="200" height="200">
+        <!-- Cuerpo del ratón -->
+        <ellipse cx="100" cy="100" rx="50" ry="40" fill="#c5c5c5"></ellipse>
+        <!-- Orejas -->
+        <circle cx="70" cy="70" r="20" fill="#c5c5c5"></circle>
+        <circle cx="130" cy="70" r="20" fill="#c5c5c5"></circle>
+        <!-- Ojos -->
+        <circle cx="85" cy="100" r="7" fill="white"></circle>
+        <circle cx="115" cy="100" r="7" fill="white"></circle>
+        <circle cx="85" cy="100" r="3" fill="black"></circle>
+        <circle cx="115" cy="100" r="3" fill="black"></circle>
+        <!-- Nariz -->
+        <circle cx="100" cy="120" r="5" fill="pink"></circle>
+        <!-- Cola unida al ratón -->
+        <path d="M 130 140 C 140 150 160 140 170 150" stroke="#c5c5c5" stroke-width="4" fill="none"></path>
+        <!-- Patas -->
+        <circle cx="80" cy="135" r="5" fill="#c5c5c5"></circle>
+        <circle cx="120" cy="135" r="5" fill="#c5c5c5"></circle>
+    </svg>
+</body>
+</html>
