@@ -15,7 +15,7 @@
 ]>
 
 <alumnos>
-    <alumno id="alumno2" edad="190" becado="si">
+    <alumno id="alumno1" edad="190" becado="si">
         <nombre>Eren Jaeger</nombre>
         <nacimiento>30/marzo/1835</nacimiento>
     </alumno>
